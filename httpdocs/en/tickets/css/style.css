@@ -1,0 +1,49 @@
+.mt30{
+margin-top:30px;
+}
+.btn {
+width: 50%;
+height: 40px;
+border: 0px;
+margin-bottom: 20px;
+position: relative;
+top: 10px;
+}
+.col-xs-12.col-sm-12.col-md-12.col-lg-12{
+background: #ededed;
+}
+.col-xs-9.col-sm-9.col-md-9.col-lg-9{
+background: #fff;
+border: 1px solid #e0e0e0;
+}
+
+.col-xs-12.col-sm-12.col-md-12.col-lg-12.mt30 {
+    width: 100%;
+    background: #fff;
+}
+
+.back button {
+width: 25%;
+height: 40px;
+background-color:#ededed;
+border: 0px;
+margin-bottom: 20px;
+position: relative;
+top: 10px;
+}
+
+@media (max-width: 768px) {
+h3{
+  font-size: 15px;
+}
+h1.text-center{
+  font-size: 50px;
+}
+.container{
+  width: 95%;
+}
+
+h3.text-center.mt30 {
+    font-size: 35px;
+}
+}

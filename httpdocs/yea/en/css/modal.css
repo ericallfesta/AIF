@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lock {
+    overflow:hidden;
+}
+
+.modal-content {
+    position:relative;
+    display:none;
+    width:50%;
+    margin:30px;
+    padding:20px;
+    background:#fff;
+}
+
+.modal-content p {
+    margin:0;
+    padding:0;
+}
+
+.modal-overlay {
+    z-index:1;
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:120%;
+    background-color:rgba(0,0,0,0.75);
+}
+
+.modal-wrap {
+    z-index:2;
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow:auto;
+}
+
+.modal-open {
+    color:#00f;
+    text-decoration:underline;
+}
+
+.modal-open:hover {
+    cursor:pointer;
+    color:#f00;
+}
+
+.modal-close {
+    color:#00f;
+	text-align:right;
+}
+
+.modal-close img {
+	width:20px;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+	margin-left: 96%;
+}
+
+.modal-close img:hover {
+    cursor:pointer;
+    color:#f00;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+}
+
+#con1 h2,
+#con2 h2,
+#con3 h2,
+#con4 h2 { font-size:95%;}
+
+#con1 h3,
+#con2 h3,
+#con3 h3,
+#con4 h3 { font-size:80%; font-weight:nomal;}
+
+
+/* tablet  */
+@media only screen and (max-width: 1020px) and (min-width: 768px) {
+/*tablet用*/
+.modal-content {
+    width:60%;
+}
+}
+
+/* smartPhone */
+@media only screen and (max-width: 767px) {
+/*スマホ用*/
+
+.modal-content {
+    width:80%;
+}
+
+
+
+
+}

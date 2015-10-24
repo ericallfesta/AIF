@@ -1,0 +1,326 @@
+
+
+h1.text-center {
+font-size: 80px;
+}
+h2.text-center{
+position: relative;
+}
+.col-cu-3 {
+position: relative;
+min-height: 1px;
+padding-right: 10px;
+padding-left: 10px;
+}
+@media (min-width: 768px) {
+.col-cu-3 {
+width: 20%;
+float: left;
+}
+}
+@media (min-width: 992px) {
+.col-cu-3 {
+width: 20%;
+float: left;
+}
+}
+@media (min-width: 1200px) {
+.col-cu-3 {
+width: 20%;
+float: left;
+}
+}
+
+/* All*/
+.csArea{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/* navbar */
+.navBar{
+height: 110px;
+}
+.navbar{
+min-height: 110px;
+border: none;
+border-radius: 0px;
+margin-bottom: 0px;
+}
+.navbar-default{
+background-color: #434343;
+}
+.navBar  img {
+width: auto;
+height: 100px;
+float: left;
+}
+ul.nav.navbar-nav {
+float: right;
+font-size: 20px;
+color: #fff;
+width: 70%;
+}
+.navbar-nav>li {
+float: left;
+width: 10%;
+}
+.navbar-nav li:hover {
+background: #FFF;
+color: #000;
+}
+.navbar-default .navbar-nav>li>a:focus{
+color: #fff;
+}
+.navbar-nav a:hover{
+color: #000;
+}
+.navbar-default .navbar-nav>li>a {
+color: #fff;
+padding: 40px 10% 50px 10%;
+width: 100%;
+}
+@media (max-width: 1200px) {
+/* firstcatch */
+.firstcatch{
+height: 20px;
+}}
+/* salespoint */
+.salespoint{
+background-image: url(../img/pattern-4.png);
+}
+/* speaker section */
+/* firstguestspeaker */
+img, video {
+max-width: 100%;
+height: auto;
+width: auto;
+}
+.firstguestspeaker{
+background-image: url(../img/pattern-8.png);
+border-top: 1px solid rgba(153,153,153,0.38);
+}
+.firstguestspeaker p{
+font-size: 18px;
+}
+.secoundguestspeaker{
+background-image: url(../img/jinkouchinou.jpg);
+color: #fff;}
+.secoundguestspeakerbg{
+background: rgba(0,0,0,0.48);
+}
+.secoundguestspeaker p{
+font-size: 18px;
+}
+.box-1{
+text-align: center;
+}
+.box-1 img{
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+overflow: hidden;
+}
+.box-1 h4{
+font-size: 14px;
+}
+.box-1 p{
+font-family: "Open Sans";
+font-size: 14px;
+}
+.box-2 h3 {
+position: relative;
+top: 65px;
+}
+.box-3{
+height: 264px;
+}
+/* <!--yea3rd final --> */
+#intro h2 {
+color: #fff;
+margin-top: -370px;
+}
+div#particles {
+background-color: #000;
+height: 390px;
+}
+.yea3rd button {
+width: 21%;
+height: 60px;
+background-color: #ededed;
+border: 0px;
+margin-bottom: 20px;
+position: relative;
+top: 40px;
+}
+.yea3rd button:hover {
+background-color: #e0e0e0;
+}
+.yea3rd a {
+color: #000;
+}
+.yea3rd p {
+font-size: 20px;
+color: #fff;
+margin-top: 35px;
+}
+/* <!--smarry seccion --> */
+.smarrysection {
+background-image: url(../img/smarrybg.jpg);
+background-size: 100%;
+position: relative;
+color: #fff;
+}
+.smarrysectionbg {
+background-color: rgba(0,0,0,0.6);
+}
+/* <!--sponser --> */
+.imgcenter{
+width: 100%;
+}
+.imgcenter img {
+width: 25%;
+}
+.img01 img{
+margin-top: 15px;}
+.img02 img{
+width: 57%;
+}
+.img03 img{
+}
+.img04 img{
+}
+.img05 img{
+margin-top: 10px;
+}
+.logo02 img{
+float: right;
+width: 30%;
+margin-top: 20px;
+}
+.logo03 img {
+width: 45%;
+float: left;
+}
+/* tickets */
+.tickets button {
+width: 20%;
+height: 35px;
+background-color: #ededed;
+border: 0px;
+margin-bottom: 20px;
+}
+.tickets button:hover {
+background-color: #e0e0e0;
+}
+.tickets a {
+color: #000;
+}
+/* access*/
+.access button {
+width: 60%;
+height: 40px;
+background-color:#CE0000;
+border: 0px;
+margin-bottom: 20px;
+position: relative;
+top: 10px;
+}
+.access button:hover {
+background-color: rgba(206,0,0,0.75);
+}
+.access a {
+color: #fff;
+}
+/* footer */
+footer{
+background: #000;
+color: #fff;
+padding-bottom: 10px;
+}
+footer img{
+width: 240px;
+}
+/* */
+.underBar{
+margin-top: 40px;
+border: 2px #999999 solid;
+}
+/* */
+/*SP ver*/
+@media (max-width: 768px) {
+.centerpoint{
+display: none;
+}
+.navbar-nav>li{
+position: relative;
+border-left: 1px solid;
+font-size: 3px;
+width: 22%;
+}
+.navbar-default .navbar-nav>li>a{
+padding: 10px;
+}
+iframe{
+width: 300px;
+height: 300px;
+}
+ul.nav.navbar-nav {
+position: relative;
+right: 12px;
+width: 100%;
+}
+.smarrysection {
+}
+.access button{
+width: 70%;
+}
+.tickets button
+{
+width: 70%;
+}
+.img01{
+position: relative;
+top: 0px;}
+.img01 img{
+width: 70%;
+}
+.img02 {
+width: 0%;
+position: relative;
+left: 0%;
+}
+.img03{
+position: relative;
+top: 0px;
+}
+.img04 {
+position: relative;
+top: 0px;
+left: 0%;
+}
+.img04 img {
+width: 125%;
+}
+.img05 {
+position: relative;
+top: 0px;
+}
+.img05 img {
+width: 90%;
+}
+.imgcenter img{
+width: 90%;
+}
+.logo01 img {
+width: 85%;
+}
+.logo02 img {
+width: 60%;
+float: none;
+}
+.logo03 img {
+width: 90%;
+float: none;
+}
+}
