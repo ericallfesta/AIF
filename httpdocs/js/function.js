@@ -49,3 +49,30 @@ $(document).ready(function() {
   });
 });
 */
+$(window).on('load resize', function(){
+    var w = $(window).width();
+    if (w <= 768) {
+      $(function(){
+      $(".menuImg").click(function(){
+      var doc =  $(document).height();
+      $("#layerMenu").fadeIn("fast");
+       $('.navBar').css({
+          height:380
+        });
+      });
+
+      $("#closeMenu").click(function(){
+     $('.navBar').css({
+        height:140
+        });
+
+      $("#layerMenu").fadeOut("fast");
+      });
+            });
+    } else {
+       $('#layerMenu').css({
+          display: 'block'
+        });
+    }
+});
+
